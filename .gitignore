@@ -1,0 +1,28 @@
+# Устанавливаем LF для текстовых файлов
+*.cs text eol=lf
+*.json text eol=lf
+*.meta text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.shader text eol=lf
+*.asset text eol=lf
+*.info text eol=lf
+*.uxml text eol=lf
+*.uss text eol=lf
+*.ko text eol=lf
+*.xcworkspacedata text eol=lf
+# Для всех языковых локализаций
+*.txt text eol=lf
+
+# Для всех файлов в пакетах Unity
+Library/PackageCache/* text eol=lf
+Library/PackageCache/com.unity.*/* text eol=lf
+
+# Для изображений и бинарных файлов
+*.png binary
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+
+# Указывает, что остальные текстовые файлы следует обрабатывать по умолчанию
+* text=auto
