@@ -1,0 +1,5 @@
+﻿component Damage {
+	int Value;
+	FP MeterEquals;
+	FP MaxYPossition;
+}
